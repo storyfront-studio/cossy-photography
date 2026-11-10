@@ -1,0 +1,9 @@
+/* Cossy Photography overrides */
+.hero2{min-height:0;align-items:center;padding:calc(66px + clamp(2rem,6vw,4rem)) 0 clamp(2.4rem,6vw,4rem)}
+.hero-grid{display:grid;gap:2.2rem;align-items:center}
+.hero2 .hero-in{padding-block:0}
+.hero-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:.55rem;max-width:520px}
+.hero-cards img{width:100%;aspect-ratio:3/4;object-fit:cover;border:1px solid var(--line);display:block}
+.hero-cards img:nth-child(2){transform:translateY(1.2rem)}
+@media(min-width:860px){.hero-grid{grid-template-columns:1.05fr .95fr}.hero-cards{justify-self:end}}
+@media(min-width:760px){.tiles{grid-template-columns:repeat(3,1fr)}}
